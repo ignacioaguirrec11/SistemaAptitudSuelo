@@ -26,15 +26,14 @@ El sistema deberá contemplar inicialmente las siguientes variables:
 
 ## 5. Clasificación de resultados
 
-Cada variable deberá poder clasificarse en cinco niveles:
+Cada variable usa la escala definida por la EEAOC (oct-2026), cargada en `Datos/reglas_eeaoc.xlsx`:
 
-- Muy bajo
-- Bajo
-- Normal
-- Alto
-- Muy alto
+- Materia orgánica: Baja, Media, Alta (igual para todos los cultivos).
+- pH: 11 clases, de Ultra ácido a Muy fuertemente alcalino, con acción asociada (Encalar, OK, OK con limitaciones, Recuperar).
+- Fósforo disponible: Bajo, Medio, Medio-alto, Alto (varía según cultivo).
+- Salinidad (CE): OK, Con limitaciones, No apto (varía según cultivo).
 
-Los rangos de clasificación deberán ser validados por la EEAOC y podrán variar según el cultivo.
+Cada nivel se muestra además con un estado: adecuado, atención o crítico.
 
 ## 6. Informe PDF
 
